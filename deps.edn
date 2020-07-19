@@ -1,0 +1,8 @@
+{:paths     ["src" "classes" "resources"]
+ :deps      {org.clojure/clojure {:mvn/version "1.10.1"}
+             nrepl               {:mvn/version "0.7.0"}}
+ :mvn/repos {"papermc" {:url "https://papermc.io/repo/repository/maven-public/"}}
+ :aliases   {:dev {:extra-paths ["dev"]
+                   :extra-deps  {com.destroystokyo.paper/paper-api {:mvn/version "1.15.2-R0.1-20200701.072435-307"}}}
+             :jar {:extra-deps {seancorfield/depstar {:mvn/version "1.0.94"}}
+                   :main-opts  ["-m" "hf.depstar.jar"]}}}

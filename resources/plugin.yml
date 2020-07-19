@@ -1,0 +1,5 @@
+name: clj-example-plugin
+version: 0.1.0
+author: Kenny
+main: dev.kwill.clj-example-plugin.Main
+api-version: 1.15
